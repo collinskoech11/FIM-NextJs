@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 import { TwitterTimelineEmbed,  TwitterFollowButton } from 'react-twitter-embed';
 
 function Twitter() {
