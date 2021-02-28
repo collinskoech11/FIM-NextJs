@@ -1,7 +1,7 @@
 import React from 'react';
-import FacebookPage from '../Navigators/FacebookPage';
+import FacebookPage from '../components/FacebookPage';
 import just from './img/just.jpg';
-import Twitter from '../Navigators/Twitter';
+import Twitter from '../components/Twitter';
 import MetaTags from 'react-meta-tags';
 
 

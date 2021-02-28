@@ -1,7 +1,7 @@
 import React from 'react';
-import './style.css';
+
 import CountUp from 'react-countup';
-import LondianiOv from './img/LondianiOv.jpeg'
+import LondianiOv from './img/LondianiOv.jpeg';
 
 function Londiani() {
     return (
