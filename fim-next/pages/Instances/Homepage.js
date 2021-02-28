@@ -3,8 +3,6 @@ import CarouselPage from '../Navigators/CarouselPage';
 import Bishop from './SuperProfiles/Bishop';
 import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';
-import './style.css';
-import './home.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';

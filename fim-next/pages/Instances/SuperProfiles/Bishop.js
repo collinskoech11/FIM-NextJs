@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 import BishopProfile from './img/BishopProfile.jpeg'
 
 function Bishop() {

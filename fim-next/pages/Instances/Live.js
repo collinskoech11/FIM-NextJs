@@ -1,7 +1,6 @@
 
 import React from 'react';
 import ReactPlayer from "react-player";
-import './style.css';
 import {Animated} from 'react-animated-css'
 
 

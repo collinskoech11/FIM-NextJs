@@ -1,6 +1,5 @@
 
 import React from 'react';
-import './styles.css';
 import ChairmanProfile from './img/ChairmanProfile.jpeg'
 
 function Chairman() {

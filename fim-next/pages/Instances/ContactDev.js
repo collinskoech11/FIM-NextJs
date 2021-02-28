@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import Collins from './img/Collins.jpeg';
 import Diana from './img/Diana.jpeg';
 

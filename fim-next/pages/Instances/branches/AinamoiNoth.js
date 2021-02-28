@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import CountUp from 'react-countup';
 
 function AinamoiNoth() {
