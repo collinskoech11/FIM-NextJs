@@ -1,7 +1,7 @@
 import React from 'react';
 
 import CountUp from 'react-countup';
-import LondianiOv from './img/LondianiOv.jpeg';
+import Image from 'next/image';
 
 function Londiani() {
     return (
@@ -11,7 +11,7 @@ function Londiani() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src={LondianiOv} alt="Branch head profile"/>
+                <Image src='./img/LondianiOv.jpeg' alt="Branch head profile"/>
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>

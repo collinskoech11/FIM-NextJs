@@ -1,13 +1,8 @@
 import React from "react";
 import { MDBCarousel,  MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
 "mdbreact";
-import Carousel1 from './img/Carousel1.jpeg';
-import carousel2 from './img/carousel2.jpeg';
-import carousel3 from './img/carousel3.jpeg';
-import poster from './img/poster.jpg';
-import poster1 from './img/poster1.jpg';
-import poster2 from './img/poster2.jpg';
-import poster3 from './img/poster3.jpg';
+import Image from 'next/image'
+
 
 
 const CarouselPage = () => {
@@ -23,9 +18,9 @@ const CarouselPage = () => {
       <MDBCarouselInner>
         <MDBCarouselItem itemId="1">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={Carousel1}
+              src='./img/Carousel1.jpeg'
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -34,9 +29,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={carousel2}
+              src='./img/carousel2.jpeg'
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -45,9 +40,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={carousel3}
+              src='./img/carousel3.jpeg'
               alt="Second slide"
             />
           <MDBMask overlay="black-strong" />
@@ -56,9 +51,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="4">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={poster}
+              src='./img/poster.jpg'
               alt="Third slide"
             />
           <MDBMask overlay="black-slight" />
@@ -67,9 +62,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="5">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={poster1}
+              src='./img/poster1.jpg'
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -78,9 +73,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="6">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={poster2}
+              src='./img/poster2.jpg'
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -89,9 +84,9 @@ const CarouselPage = () => {
         </MDBCarouselItem>
         <MDBCarouselItem itemId="7">
           <MDBView>
-            <img
+            <Image
               className="d-block w-100"
-              src={poster3}
+              src='./img/poster3.jpg'
               alt="First slide"
             />
           <MDBMask overlay="black-light" />

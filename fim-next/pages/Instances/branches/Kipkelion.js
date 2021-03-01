@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
-import KipkelionOv from './img/KipkelionOv.jpeg';
+import Image from 'next/image'
+
 
 
 function Kipkelion() {
@@ -11,7 +12,7 @@ function Kipkelion() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src={KipkelionOv} alt="Branch head profile"/>
+                <Image src="./img/KipkelionOv.jpeg" alt="Branch head profile"/>
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>

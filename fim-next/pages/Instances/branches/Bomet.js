@@ -1,6 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
-import BometOv from './img/BometOv.jpeg';
+import Image from 'next/image';
 
 function Bomet() {
     return (
@@ -10,7 +10,7 @@ function Bomet() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src={BometOv} alt="Branch head profile"/>
+                <Image src='./img/BometOv.jpeg' alt="Branch head profile"/>
             </div>
             <div className="profile-text">
                 <h2>Overseer</h2>
