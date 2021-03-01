@@ -6,14 +6,12 @@ import Upcoming from '../components/Upcoming';
 import Twitter from '../components/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
-import Video from './videos/video-2.mp4'
 
 
 export default function Home() {
     return (
         <div>
             <div className="hero-container">
-            
             <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
             <div className="container first">
                 <div className="f-block"><CarouselPage/></div>

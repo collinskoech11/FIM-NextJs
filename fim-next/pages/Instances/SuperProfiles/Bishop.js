@@ -1,5 +1,5 @@
 import React from 'react';
-import BishopProfile from './img/BishopProfile.jpeg'
+import Image from 'next/image'
 
 function Bishop() {
     return (
@@ -11,7 +11,9 @@ function Bishop() {
             
             </div>
             <div className="profile-img">
-            <img src={BishopProfile} alt="Bishop Profile"/>
+           <Image 
+           src="./img/BishopProfile.jpeg"
+           alt="Bishop Profile Image"/>
             </div>
             <div className="profile-desc">
                 <p>To make and deploy mature and equipped followers of Christ for the sake of Family, Community and Global Transformation. At Gateway, we are committed to helping every person believe in Jesus, belong to a family, become a disciple and build His kingdom. </p>
