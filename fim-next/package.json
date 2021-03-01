@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.6.0",
+    "mdbreact": "^5.0.1",
     "next": "10.0.7",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next-compose-plugins": "^2.2.1",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.7.0",
+    "react": "^16.14.0",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.5.0",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.14.0",
+    "react-meta-tags": "^1.0.1",
+    "react-player": "^2.9.0",
+    "react-sparkle": "^1.0.8",
+    "react-twitter-embed": "^3.0.3"
   }
 }

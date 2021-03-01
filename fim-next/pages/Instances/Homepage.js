@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div>
             <div className="hero-container">
-            <video src={Video} autoPlay loop muted />
+            
             <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
             <div className="container first">
                 <div className="f-block"><CarouselPage/></div>
