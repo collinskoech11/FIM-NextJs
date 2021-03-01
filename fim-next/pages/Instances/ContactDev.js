@@ -1,13 +1,12 @@
 import React from 'react';
-import Collins from './img/Collins.jpeg';
-import Diana from './img/Diana.jpeg';
+import Image from 'next/image';
 
 function ContactDev() {
     return (
        <>
         <div className="dev">
             <div className="dev-prof">
-                <img src={Collins} alt=""/>
+                <Image src='./img/Collins.jpeg' alt=""/>
             </div>
             <div className="dev-desc">
                <a href="https://github.com/collinskoech11"><h2>Collins Koech</h2></a>
@@ -18,7 +17,7 @@ function ContactDev() {
         </div>
         <div className="dev">
             <div className="dev-prof">
-                <img src={Diana} alt=""/>
+                <Image src='./img/Diana.jpeg' alt=""/>
             </div>
             <div className="dev-desc">
                 <a href="https://github.com/Diana-Nyamai"><h2>Diana Nyamai</h2></a>
