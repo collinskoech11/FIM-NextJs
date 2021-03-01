@@ -1,5 +1,5 @@
 import React from 'react';
-import NandiOv from './img/NandiOv.jpeg'
+import Image from 'next/image';
 
 function Nandi() {
     return (
@@ -9,7 +9,7 @@ function Nandi() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src={NandiOv} alt="Branch head profile"/>
+                <Image src='./img/NandiOv.jpeg' alt="Branch head profile"/>
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>

@@ -1,6 +1,6 @@
 import React from 'react';
 import FacebookPage from '../components/FacebookPage';
-import just from './img/just.jpg';
+import Image from 'next/image';
 import Twitter from '../components/Twitter';
 import MetaTags from 'react-meta-tags';
 
@@ -19,7 +19,7 @@ function JustFm() {
         </div>
     <div className="justCon">
       <h1>The Just f.m radio</h1> <h3>98.9 fm</h3>
-      <img src={just} alt="just fm header"/>
+      <Image src='./img/just.jpg' alt="just fm header"/>
     </div>
     <div className="title">
       <h1>Live Radio Streaming Coming soon </h1>
